@@ -316,7 +316,7 @@ const createEmptyMergedData = () => ({
     show_price: true,
     show_expire: true,
     show_tf: true,
-    show_three_net_details: false,
+    show_three_net_details: true,
     display_mode: 'bar',
     site_title: DEFAULT_SITE_TITLE,
     latency_window: {

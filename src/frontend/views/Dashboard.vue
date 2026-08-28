@@ -402,7 +402,7 @@ const sysConfig = ref({
   show_price: true,
   show_expire: true,
   show_tf: true,
-  show_three_net_details: false,
+  show_three_net_details: true,
   frontend_ws_timeout_minutes: normalizeLiveSocketTimeoutMinutes(appConfig?.frontend_ws_timeout_minutes),
   display_mode: 'bar',
   site_title: DEFAULT_SITE_TITLE,

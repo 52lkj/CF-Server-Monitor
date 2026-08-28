@@ -9,7 +9,7 @@ export const DEFAULT_SERVER_CARD_CONFIG = {
   show_price: true,
   show_expire: true,
   show_tf: true,
-  show_three_net_details: false,
+  show_three_net_details: true,
   latency_window: {
     points: LATENCY_WINDOW.POINTS,
     hours: LATENCY_WINDOW.HOURS
